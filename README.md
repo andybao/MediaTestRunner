@@ -10,3 +10,11 @@ You will know how this tool looks like from [MediaTestRunner Video Demo](https:/
 - MediaTestRunner server use Android MediaPlayerControl to test media codec, it assert result by MediaPlayer method.
 - MediaTestRunner client use python script to initialize environment, parse log and generate report.
 - You can get more info from [demo_introduction](./quick_start/demo_introduction.pdf)
+
+# Quick Start
+1. Download ./quick_start folder
+2. Connect device to PC or open simulator, get serial number by 'adb devices'
+3. Update your serial number to ./quick_start/script/setting.txt
+4. Move to ./quick_start/script folder in terminal
+5. Run init.py by python, accept permission request in device
+6. Run run_test_github.py by python
