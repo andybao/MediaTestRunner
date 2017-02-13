@@ -9,3 +9,4 @@ You will know how this tool looks like from [MediaTestRunner Video Demo](https:/
 # Introduction
 - MediaTestRunner server use Android MediaPlayerControl to test media codec, it assert result by MediaPlayer method.
 - MediaTestRunner client use python script to initialize environment, parse log and generate report.
+- You can get more info from [demo_introduction](./quick_start/demo_introduction.pdf)
