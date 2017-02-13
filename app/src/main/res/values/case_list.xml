@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="AudioTestCase">
+        <item >TestSmokeAudioBasicFunction</item>
+        <item >TestSmokeAudioMemoryCPU</item>
+        <item >TestSmokeNDKAudioBasicFunction</item>
+        <item >TestAudioResponseTime</item>
+        <item >TestAudioMemory</item>
+        <item >TestAudioMemoryCPU</item>
+        <item >TestAudioStreamingResponseTime</item>
+        <item >TestAudioStreamingMemoryCPU</item>
+    </string-array>
+    <string-array name="VideoTestCase">
+        <item>TestVideoBasicFunction</item>
+        <item>TestVideoFailedOnPause</item>
+    </string-array>
+</resources>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MediaTestRunner</string>
+    <string name="version">v1.0_Beta</string>
+    <string name="main_name">Media Test Runner</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="audio_title">Audio Test</string>
+    <string name="video_title">Video Test</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="exit">Exit</string>
+    <string name="settings">Settings</string>
+    <string name="select_message">Please select the item to test:</string>
+    <string name="help_title">Help</string>
+    <string name="set_path">Set tool root path.</string>
+    <string name="note">IMPORTANT: All features are not supported, just demo</string>
+    <string name="scan_audio">Scan all audio files on device and create audio_default_playlist.txt file in playlist folder.</string>
+    <string name="scan_video">Scan all video files on device and create video_default_playlist.txt file in playlist folder.</string>
+    <string name="create_log">Create simple log.</string>
+    <string name="delete_all_log">Delete all logs (Note: All logs in log folder will be deleted).</string>
+    <string name="wrong_playlist_note">There is no matched playlist found on playlist folder, please confirm the playlist file on your device.</string>
+</resources>

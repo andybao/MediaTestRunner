@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#87CEFA" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/media_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:text="@string/main_name"
+            android:textSize="35sp"
+            android:gravity="center"
+            android:textColor="@color/colorAccent"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" >
+
+        <ImageView
+            android:id="@+id/audio_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/audio_icon"
+            android:background="#87CEFA"
+            android:scaleType="centerCrop"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/video_button"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/audio_button"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/video_icon"
+            android:background="#87CEFA"
+            android:scaleType="centerCrop"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="bottom|left" >
+
+        <Button
+            android:id="@+id/help_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/help_title"
+            android:background="@drawable/button_bg"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:layout_gravity="bottom|right" >
+        <Button
+            android:id="@+id/setting_button"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="@string/settings"
+            android:background="@drawable/button_bg"
+            android:scaleType="centerCrop" />
+    </RelativeLayout>
+
+</FrameLayout>
