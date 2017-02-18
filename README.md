@@ -13,7 +13,7 @@ You will know how this tool looks like from [MediaTestRunner Video Demo](https:/
 
 # Android Technique
 |Type|Detail|
-|-|-|
+|----|------|
 |Layout|ListView|
 |DB|SQLite|
 |Custom View|SurfaceView + MediaPlayerControl|
