@@ -11,6 +11,10 @@ You will know how this tool looks like from [MediaTestRunner Video Demo](https:/
 - MediaTestRunner client use python script to initialize environment, parse log and generate report.
 - You can get more info from [demo_introduction](./quick_start/demo_introduction.pdf)
 
+# Android Detail
+|Layout|ListView|
+|DB|SQLite|
+
 # Quick Start
 1. Download ./quick_start folder
 2. Connect device to PC or open simulator, get serial number by 'adb devices'
