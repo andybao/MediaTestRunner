@@ -12,11 +12,12 @@ You will know how this tool looks like from [MediaTestRunner Video Demo](https:/
 - You can get more info from [demo_introduction](./quick_start/demo_introduction.pdf)
 
 # Android Technique
-|Type  |Detail  |
-|------|--------|
+|Type|Detail|
+|-|-|
 |Layout|ListView|
-|DB    |SQLite  |
+|DB|SQLite|
 |Custom View|SurfaceView + MediaPlayerControl|
+
 
 # Quick Start
 1. Download ./quick_start folder
