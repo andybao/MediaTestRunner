@@ -11,9 +11,9 @@ You will know how this tool looks like from [MediaTestRunner Video Demo](https:/
 - MediaTestRunner client use python script to initialize environment, parse log and generate report.
 - You can get more info from [demo_introduction](./quick_start/demo_introduction.pdf)
 
-# Android Detail
+# Android detail
 |Layout|ListView|
-|DB|SQLite|
+|DB    |SQLite  |
 
 # Quick Start
 1. Download ./quick_start folder
